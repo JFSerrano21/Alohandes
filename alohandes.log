@@ -1,0 +1,18 @@
+11:42:05,711 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Parranderos] - Limpiando la BD de Parranderos
+11:42:05,809 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.persistencia.PersistenciaParranderos] - Borrada la base de datos
+11:42:05,810 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Parranderos] - Limpiando la BD de Parranderos: Listo!
+17:49:19,884 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazParranderosApp] - Se encontró un archivo de configuración válido: Interfaz
+17:49:19,884 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazParranderosApp] - Se aplica configuración indicada en el archivo de configuración
+17:49:19,896 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazParranderosApp] - Se encontró un archivo de configuración válido: Tablas BD
+15:13:21,163 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se encontró un archivo de configuración válido: Interfaz
+15:13:21,164 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se aplica configuración indicada en el archivo de configuración
+15:13:21,199 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+15:47:43,124 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se encontró un archivo de configuración válido: Interfaz
+15:47:43,124 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se aplica configuración indicada en el archivo de configuración
+15:47:43,142 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+15:59:56,443 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se encontró un archivo de configuración válido: Interfaz
+15:59:56,443 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se aplica configuración indicada en el archivo de configuración
+15:59:56,475 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+16:03:03,786 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se encontr� un archivo de configuraci�n v�lido: Interfaz
+16:03:03,787 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se aplica configuraci�n indicada en el archivo de configuraci�n
+16:03:03,819 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se encontr� un archivo de configuraci�n v�lido: Tablas BD
