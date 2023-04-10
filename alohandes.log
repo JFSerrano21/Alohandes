@@ -19,3 +19,30 @@
 16:13:54,252 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se encontró un archivo de configuración válido: Interfaz
 16:13:54,252 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se aplica configuración indicada en el archivo de configuración
 16:13:54,269 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+16:16:20,578 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se encontró un archivo de configuración válido: Interfaz
+16:16:20,579 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se aplica configuración indicada en el archivo de configuración
+16:16:20,597 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+16:42:25,739 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se encontró un archivo de configuración válido: Interfaz
+16:42:25,740 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se aplica configuración indicada en el archivo de configuración
+16:42:25,775 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+16:44:49,668 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se encontró un archivo de configuración válido: Interfaz
+16:44:49,668 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se encontró un archivo de configuración válido: Interfaz
+16:44:49,670 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se aplica configuración indicada en el archivo de configuración
+16:44:49,670 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se aplica configuración indicada en el archivo de configuración
+16:44:49,689 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+16:44:49,689 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+16:44:56,450 (AWT-EventQueue-0) INFO  [uniandes.isis2304.alohandes.negocio.Alohandes] - Eliminando Propuesta con id: 1
+16:44:56,738 (AWT-EventQueue-0) ERROR [uniandes.isis2304.alohandes.persistencia.PersistenciaAlohandes] - Exception : Error con la ejecucion de Query de SQL "DELETE FROM Usuario WHERE id = ?".
+16:44:56,769 (AWT-EventQueue-0) INFO  [uniandes.isis2304.alohandes.negocio.Alohandes] - Eliminada Propuesta: -1 tuplas eliminadas
+16:45:30,911 (AWT-EventQueue-0) INFO  [uniandes.isis2304.alohandes.negocio.Alohandes] - Eliminando Propuesta con id: 1
+16:45:30,919 (AWT-EventQueue-0) ERROR [uniandes.isis2304.alohandes.persistencia.PersistenciaAlohandes] - Exception : Error con la ejecucion de Query de SQL "DELETE FROM Usuario WHERE id = ?".
+16:45:30,947 (AWT-EventQueue-0) INFO  [uniandes.isis2304.alohandes.negocio.Alohandes] - Eliminada Propuesta: -1 tuplas eliminadas
+16:48:32,989 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se encontró un archivo de configuración válido: Interfaz
+16:48:32,989 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se encontró un archivo de configuración válido: Interfaz
+16:48:32,990 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se aplica configuración indicada en el archivo de configuración
+16:48:32,990 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se aplica configuración indicada en el archivo de configuración
+16:48:33,018 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+16:48:33,018 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+16:48:41,054 (AWT-EventQueue-0) INFO  [uniandes.isis2304.alohandes.negocio.Alohandes] - Eliminando Propuesta con id: 1
+16:48:41,198 (AWT-EventQueue-0) ERROR [uniandes.isis2304.alohandes.persistencia.PersistenciaAlohandes] - Exception : Error con la ejecucion de Query de SQL "DELETE FROM Usuario WHERE id = ?".
+16:48:41,206 (AWT-EventQueue-0) INFO  [uniandes.isis2304.alohandes.negocio.Alohandes] - Eliminada Propuesta: -1 tuplas eliminadas

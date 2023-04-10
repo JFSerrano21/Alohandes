@@ -28,6 +28,10 @@ public class Alohandes {
          pp.cerrarUnidadPersistencia ();
      }
      
+     public boolean cargarBasedeDatos(){
+        // Todavia no esta implementada
+        return false;
+     }
      public Usuario adicionarUsuario (String nombre, String apellido, String correoElectronico, int telefono, String tipo)
      {
          log.info ("Adicionando Usuario con nombre, apellido, correo, telefono y tupo: " + nombre + "," + apellido + "," + correoElectronico + "," + telefono + "," + tipo);

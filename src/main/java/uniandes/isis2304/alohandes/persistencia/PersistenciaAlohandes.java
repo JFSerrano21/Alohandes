@@ -260,6 +260,7 @@ public class PersistenciaAlohandes {
     public List<Usuario> darUsuarios() {
         return sqlUsuario.darUsuarios(pmf.getPersistenceManager());
     }
+
     
     public long actualizarNombreUsuario(long idUsuario, String nuevoNombre) {
         PersistenceManager pm = pmf.getPersistenceManager();

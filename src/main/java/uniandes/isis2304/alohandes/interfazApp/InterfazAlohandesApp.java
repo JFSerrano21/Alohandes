@@ -327,7 +327,38 @@ public class InterfazAlohandesApp extends JFrame implements ActionListener
 		
 	}
 	public void RF6 (){
-		
+		// Metodo para retirar una oferta de alojamiento
+		try {
+			String idPropuestaStr = JOptionPane.showInputDialog(null, "Ingrese el ID de la propuesta de alojamiento que desea eliminar:", "Eliminar propuesta", JOptionPane.PLAIN_MESSAGE);
+			int idPropuesta = Integer.parseInt(idPropuestaStr);
+			String resultado = "En registrar usuario\n\n";
+			Long propuesta  = alohandes.eliminarPropuestaPorId(idPropuesta);
+			// Verificamos que si se borro
+			if (propuesta != -1) {
+	            resultado += "Propuesta eliminada con exito";
+	        } else {
+	            resultado += "No se puedo eliminar la Propuesta con el id:" + idPropuesta;
+	        }
+			// Terminamos de mandar la informacion del cierre de la operacion
+	        resultado += "\n Operación terminada";
+	        panelDatos.actualizarInterfaz(resultado);
+
+		} catch (NumberFormatException e) {
+			// Error en el to int
+			String resultado = "Error: El ID de la propuesta no es valido";
+			panelDatos.actualizarInterfaz(resultado);
+		} catch (Exception e) {
+			// Excepcion en el borrado de la propuesta
+			String resultado = generarMensajeError(e);
+			panelDatos.actualizarInterfaz(resultado);
+		}
+		}
+
+	// ToDo
+	public boolean verificarUsuario(){
+	 boolean resp = false;
+
+	 return resp;
 	}
 	
 	
@@ -337,6 +368,11 @@ public class InterfazAlohandesApp extends JFrame implements ActionListener
 	/**
 	 * Muestra el log de Alohandes
 	 */
+
+	public void cargarBasedeDatos(){
+		// no esta completo
+		alohandes.cargarBasedeDatos();
+	}
 	public void mostrarLogAlohandes ()
 	{
 		mostrarArchivo ("alohandes.log");
