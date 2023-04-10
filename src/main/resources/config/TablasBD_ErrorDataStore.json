@@ -1,0 +1,14 @@
+{
+	"title": "Nombres de las tablas de Alohandes Uniandes para pruebas de la aplicación cuando la base de datos no existe o está caida",
+	"unidadPersistencia": "AlohandesErrorDS",
+	"tablas":
+	[
+		"Alohandes_sequence",
+		"X_Operador",
+		"X_Alojamiento",
+		"X_Usuario",
+		"X_Propuesta",
+		"X_Reserva",
+		"X_Servicio"
+	]
+}
