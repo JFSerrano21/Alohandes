@@ -48,6 +48,7 @@ import com.google.gson.stream.JsonReader;
 
 import uniandes.isis2304.alohandes.negocio.Alohandes;
 import uniandes.isis2304.alohandes.negocio.Operador;
+import uniandes.isis2304.alohandes.negocio.Usuario;
 import uniandes.isis2304.alohandes.negocio.VOAlojamiento;
 import uniandes.isis2304.alohandes.negocio.VOOperador;
 import uniandes.isis2304.alohandes.negocio.VOPropuesta;
@@ -278,9 +279,44 @@ public class InterfazAlohandesApp extends JFrame implements ActionListener
 	        panelDatos.actualizarInterfaz(resultado);
 	    }
 	}
-	public void RF2 (){
-		
+	public void RF2() {
+	    try {
+	        String idUsuarioStr = JOptionPane.showInputDialog(this, "ID del Usuario:",
+	                "Registrar Usuario", JOptionPane.QUESTION_MESSAGE);
+	        int idUsuario = Integer.parseInt(idUsuarioStr);
+	        String nombre = JOptionPane.showInputDialog(this, "Nombre:",
+	                "Registrar Usuario", JOptionPane.QUESTION_MESSAGE);
+	        String apellido = JOptionPane.showInputDialog(this, "Apellido:",
+	                "Registrar Usuario", JOptionPane.QUESTION_MESSAGE);
+	        String correoElectronico = JOptionPane.showInputDialog(this, "Correo Electrónico:",
+	                "Registrar Usuario", JOptionPane.QUESTION_MESSAGE);
+	        String telefonoStr = JOptionPane.showInputDialog(this, "Teléfono:",
+	                "Registrar Usuario", JOptionPane.QUESTION_MESSAGE);
+	        int telefono = Integer.parseInt(telefonoStr);
+	        String tipo = JOptionPane.showInputDialog(this, "Tipo:",
+	                "Registrar Usuario", JOptionPane.QUESTION_MESSAGE);
+
+	        String resultado = "En registrar usuario\n\n";
+	        Usuario usuario = alohandes.adicionarUsuario(idUsuario, nombre, apellido, correoElectronico, telefono, tipo);
+
+	        if (usuario != null) {
+	            resultado += "Usuario registrado con éxito: " + usuario;
+	        } else {
+	            resultado += "No se pudo registrar el Usuario.";
+	        }
+
+	        resultado += "\n Operación terminada";
+	        panelDatos.actualizarInterfaz(resultado);
+
+	    } catch (NumberFormatException e) {
+	        String resultado = "Error: El ID del Usuario y el Teléfono deben ser números enteros.";
+	        panelDatos.actualizarInterfaz(resultado);
+	    } catch (Exception e) {
+	        String resultado = generarMensajeError(e);
+	        panelDatos.actualizarInterfaz(resultado);
+	    }
 	}
+
 	public void RF3 (){
 		
 	}
