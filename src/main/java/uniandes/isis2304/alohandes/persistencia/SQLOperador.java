@@ -30,6 +30,7 @@ class SQLOperador {
         Query q = pm.newQuery(SQL,
                 "INSERT INTO " + pa.darTablaOperador()
                         + "(id, nombre, tipo, codigo_camara_comercio, registro_superintendencia) values (?, ?, ?, ?, ?)");
+        System.out.println("el query se ve: " + idOperador + nombre + tipo + codigoCamaraComercio + registroSuperintendencia);
         q.setParameters(idOperador, nombre, tipo, codigoCamaraComercio, registroSuperintendencia);
         return (long) q.executeUnique();
     }

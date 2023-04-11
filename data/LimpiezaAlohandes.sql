@@ -1,34 +1,18 @@
--- Eliminar restricciones y secuencias:
+-- Drop foreign key constraints:
+ALTER TABLE Alojamiento DROP CONSTRAINT fk_operador_alojamiento;
+ALTER TABLE Reserva DROP CONSTRAINT fk_reserva_usuario;
+ALTER TABLE Reserva DROP CONSTRAINT fk_reserva_alojamiento;
+ALTER TABLE Propuesta DROP CONSTRAINT fk_propuesta_alojamiento;
 
-ALTER TABLE Alojamiento
-DROP CONSTRAINT fk_alojamiento_operador;
-
-ALTER TABLE Reserva
-DROP CONSTRAINT fk_user,
-DROP CONSTRAINT fk_alojamiento;
-
-ALTER TABLE Propuesta
-DROP CONSTRAINT fk_alojamiento;
-
-ALTER TABLE Alojamiento
-DROP CONSTRAINT fk_operador_alojamiento;
-
+-- Drop the sequence:
 DROP SEQUENCE alohandes_sequence;
 
--- Eliminar tablas:
-
-DROP TABLE Servicios;
-
-DROP TABLE Reserva;
-
-DROP TABLE Propuesta;
-
-DROP TABLE Usuario;
-
-DROP TABLE Alojamiento;
-
-DROP TABLE Operador;
+-- Drop tables:
+DROP TABLE Servicio CASCADE CONSTRAINTS;
+DROP TABLE Reserva CASCADE CONSTRAINTS;
+DROP TABLE Propuesta CASCADE CONSTRAINTS;
+DROP TABLE Usuario CASCADE CONSTRAINTS;
+DROP TABLE Alojamiento CASCADE CONSTRAINTS;
+DROP TABLE Operador CASCADE CONSTRAINTS;
 
 COMMIT;
-
-

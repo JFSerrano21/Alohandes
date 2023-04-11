@@ -4,11 +4,11 @@
 	"tablas":
 	[
 		"Alohandes_sequence",
-		"Operador",
 		"Alojamiento",
-		"Usuario",
+		"Operador",
 		"Propuesta",
 		"Reserva",
-		"Servicio"
+		"Servicio",
+		"Usuario"
 	]
 }

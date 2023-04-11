@@ -26,6 +26,7 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.lang.reflect.Method;
+import java.sql.Timestamp;
 import java.util.List;
 
 import javax.jdo.JDODataStoreException;
@@ -48,7 +49,9 @@ import com.google.gson.stream.JsonReader;
 
 import uniandes.isis2304.alohandes.negocio.Alohandes;
 import uniandes.isis2304.alohandes.negocio.Operador;
+import uniandes.isis2304.alohandes.negocio.Propuesta;
 import uniandes.isis2304.alohandes.negocio.Usuario;
+import uniandes.isis2304.alohandes.negocio.Reserva;
 import uniandes.isis2304.alohandes.negocio.VOAlojamiento;
 import uniandes.isis2304.alohandes.negocio.VOOperador;
 import uniandes.isis2304.alohandes.negocio.VOPropuesta;
@@ -246,6 +249,7 @@ public class InterfazAlohandesApp extends JFrame implements ActionListener
 	 * 			Métodos Requerimientos Funcionales
 	 *****************************************************************/
 	public void RF1 (){
+		// Registrar Operadores
 
 		try {
 	        String idOperadorStr = JOptionPane.showInputDialog(this, "ID del Operador:",
@@ -280,7 +284,53 @@ public class InterfazAlohandesApp extends JFrame implements ActionListener
 	    }
 	}
 	public void RF2() {
-	    try {
+		// Registrar Propuestas
+		// se necesita: long id, String titulo, String descripcion, long idAlojamiento
+		try {
+			// Pedimos la informacion por medio de dialogos
+			String idPropuestaStr = JOptionPane.showInputDialog(this, "ID de la propuesta:",
+			"Registrar Propuesta", JOptionPane.QUESTION_MESSAGE);
+
+			long idPropuesta = Long.parseLong(idPropuestaStr);
+
+			String titulo = JOptionPane.showInputDialog(this, "Titulo de la propuesta:",
+			"Registrar Propuesta", JOptionPane.QUESTION_MESSAGE);
+
+			String descripcion = JOptionPane.showInputDialog(this, "Descripcion de la propuesta:",
+			"Registrar Propuesta", JOptionPane.QUESTION_MESSAGE);
+
+			String idAlojamientoStr = JOptionPane.showInputDialog(this, "ID del Alojamiento:",
+			"Registrar Propuesta", JOptionPane.QUESTION_MESSAGE);
+
+			long idAlojamiento = Long.parseLong(idAlojamientoStr);
+
+			// Mandamos a registrar la propuesta a la capa de negocio:
+			String resultado = "En registrar Propuesta\n\n";
+
+			Propuesta propuesta = alohandes.adicionarPropuesta(idPropuesta, titulo, descripcion, idAlojamiento);
+
+			// Revisamos que se haya creado correctamente:
+			if (propuesta != null) {
+	            resultado += "Propuesta registrada con éxito: " + propuesta;
+	        } else {
+	            resultado += "No se pudo registrar la propuesta.";
+	        }
+	        
+	        resultado += "\n Operación terminada";
+	        panelDatos.actualizarInterfaz(resultado);
+
+	    } catch (NumberFormatException e) {
+	        String resultado = "Error: El ID de la propuesta o el del Alojamiento deben ser un número entero.";
+	        panelDatos.actualizarInterfaz(resultado);
+	    } catch (Exception e) {
+	        String resultado = generarMensajeError(e);
+	        panelDatos.actualizarInterfaz(resultado);
+	    }
+	}
+
+	public void RF3 (){
+		// Registrar Usuarios
+		try {
 	        String idUsuarioStr = JOptionPane.showInputDialog(this, "ID del Usuario:",
 	                "Registrar Usuario", JOptionPane.QUESTION_MESSAGE);
 	        int idUsuario = Integer.parseInt(idUsuarioStr);
@@ -316,16 +366,93 @@ public class InterfazAlohandesApp extends JFrame implements ActionListener
 	        panelDatos.actualizarInterfaz(resultado);
 	    }
 	}
-
-	public void RF3 (){
-		
+	public void RF4() {
+		// Registrar Reservas
+		try {
+			// Pedimos la información por medio de diálogos
+			String idReservaStr = JOptionPane.showInputDialog(this, "ID de la reserva:",
+			"Registrar Reserva", JOptionPane.QUESTION_MESSAGE);
+			long idReserva = Long.parseLong(idReservaStr);
+	
+			String userIdStr = JOptionPane.showInputDialog(this, "ID del usuario:",
+			"Registrar Reserva", JOptionPane.QUESTION_MESSAGE);
+			long userId = Long.parseLong(userIdStr);
+	
+			String alojamientoIdStr = JOptionPane.showInputDialog(this, "ID del alojamiento:",
+			"Registrar Reserva", JOptionPane.QUESTION_MESSAGE);
+			long alojamientoId = Long.parseLong(alojamientoIdStr);
+	
+			String fechaInicialStr = JOptionPane.showInputDialog(this, "Fecha inicial (YYYY-MM-DD HH:MM:SS):",
+			"Registrar Reserva", JOptionPane.QUESTION_MESSAGE);
+			Timestamp fechaInicial = Timestamp.valueOf(fechaInicialStr);
+	
+			String fechaFinalStr = JOptionPane.showInputDialog(this, "Fecha final (YYYY-MM-DD HH:MM:SS):",
+			"Registrar Reserva", JOptionPane.QUESTION_MESSAGE);
+			Timestamp fechaFinal = Timestamp.valueOf(fechaFinalStr);
+	
+			String costoStr = JOptionPane.showInputDialog(this, "Costo de la reserva:",
+			"Registrar Reserva", JOptionPane.QUESTION_MESSAGE);
+			int costo = Integer.parseInt(costoStr);
+	
+			// Mandamos a registrar la reserva a la capa de negocio:
+			String resultado = "En registrar Reserva\n\n";
+	
+			Reserva reserva = alohandes.adicionarReserva(idReserva, userId, alojamientoId, fechaInicial, fechaFinal, costo);
+	
+			// Revisamos que se haya creado correctamente:
+			if (reserva != null) {
+				resultado += "Reserva registrada con éxito: " + reserva;
+			} else {
+				resultado += "No se pudo registrar la reserva.";
+			}
+	
+			resultado += "\n Operación terminada";
+			panelDatos.actualizarInterfaz(resultado);
+	
+		} catch (NumberFormatException e) {
+			String resultado = "Error: El ID de la reserva, el ID del usuario, el ID del alojamiento o el costo deben ser números enteros.";
+			panelDatos.actualizarInterfaz(resultado);
+		} catch (IllegalArgumentException e) {
+			String resultado = "Error: El formato de fecha es incorrecto, por favor utilice el formato 'YYYY-MM-DD HH:MM:SS'.";
+			panelDatos.actualizarInterfaz(resultado);
+		} catch (Exception e) {
+			String resultado = generarMensajeError(e);
+			panelDatos.actualizarInterfaz(resultado);
+		}
 	}
-	public void RF4 (){
-		
+	
+	public void RF5() {
+		// Eliminar Reserva
+		try {
+			// Pedimos la información por medio de diálogos
+			String idReservaStr = JOptionPane.showInputDialog(this, "ID de la reserva a eliminar:",
+			"Eliminar Reserva", JOptionPane.QUESTION_MESSAGE);
+			long idReserva = Long.parseLong(idReservaStr);
+	
+			// Mandamos a eliminar la reserva a la capa de negocio:
+			String resultado = "En eliminar Reserva\n\n";
+	
+			long resp = alohandes.eliminarReservaPorId(idReserva);
+	
+			// Revisamos que se haya eliminado correctamente:
+			if (resp != -1) {
+				resultado += "Reserva eliminada con éxito. " + resp + " tuplas eliminadas.";
+			} else {
+				resultado += "No se pudo eliminar la reserva.";
+			}
+	
+			resultado += "\n Operación terminada";
+			panelDatos.actualizarInterfaz(resultado);
+	
+		} catch (NumberFormatException e) {
+			String resultado = "Error: El ID de la reserva debe ser un número entero.";
+			panelDatos.actualizarInterfaz(resultado);
+		} catch (Exception e) {
+			String resultado = generarMensajeError(e);
+			panelDatos.actualizarInterfaz(resultado);
+		}
 	}
-	public void RF5 (){
-		
-	}
+	
 	public void RF6 (){
 		// Metodo para retirar una oferta de alojamiento
 		try {
@@ -334,7 +461,7 @@ public class InterfazAlohandesApp extends JFrame implements ActionListener
 			String resultado = "En registrar usuario\n\n";
 			Long propuesta  = alohandes.eliminarPropuestaPorId(idPropuesta);
 			// Verificamos que si se borro
-			if (propuesta != -1) {
+			if (propuesta >0 ) {
 	            resultado += "Propuesta eliminada con exito";
 	        } else {
 	            resultado += "No se puedo eliminar la Propuesta con el id:" + idPropuesta;
@@ -353,6 +480,8 @@ public class InterfazAlohandesApp extends JFrame implements ActionListener
 			panelDatos.actualizarInterfaz(resultado);
 		}
 		}
+
+
 
 	// ToDo
 	public boolean verificarUsuario(){
