@@ -16,3 +16,123 @@
 16:03:03,786 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se encontró un archivo de configuración válido: Interfaz
 16:03:03,787 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se aplica configuración indicada en el archivo de configuración
 16:03:03,819 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+16:13:54,252 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se encontró un archivo de configuración válido: Interfaz
+16:13:54,252 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se aplica configuración indicada en el archivo de configuración
+16:13:54,269 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+16:16:20,578 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se encontró un archivo de configuración válido: Interfaz
+16:16:20,579 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se aplica configuración indicada en el archivo de configuración
+16:16:20,597 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+16:42:25,739 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se encontró un archivo de configuración válido: Interfaz
+16:42:25,740 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se aplica configuración indicada en el archivo de configuración
+16:42:25,775 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+16:44:49,668 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se encontró un archivo de configuración válido: Interfaz
+16:44:49,668 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se encontró un archivo de configuración válido: Interfaz
+16:44:49,670 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se aplica configuración indicada en el archivo de configuración
+16:44:49,670 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se aplica configuración indicada en el archivo de configuración
+16:44:49,689 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+16:44:49,689 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+16:44:56,450 (AWT-EventQueue-0) INFO  [uniandes.isis2304.alohandes.negocio.Alohandes] - Eliminando Propuesta con id: 1
+16:44:56,738 (AWT-EventQueue-0) ERROR [uniandes.isis2304.alohandes.persistencia.PersistenciaAlohandes] - Exception : Error con la ejecucion de Query de SQL "DELETE FROM Usuario WHERE id = ?".
+16:44:56,769 (AWT-EventQueue-0) INFO  [uniandes.isis2304.alohandes.negocio.Alohandes] - Eliminada Propuesta: -1 tuplas eliminadas
+16:45:30,911 (AWT-EventQueue-0) INFO  [uniandes.isis2304.alohandes.negocio.Alohandes] - Eliminando Propuesta con id: 1
+16:45:30,919 (AWT-EventQueue-0) ERROR [uniandes.isis2304.alohandes.persistencia.PersistenciaAlohandes] - Exception : Error con la ejecucion de Query de SQL "DELETE FROM Usuario WHERE id = ?".
+16:45:30,947 (AWT-EventQueue-0) INFO  [uniandes.isis2304.alohandes.negocio.Alohandes] - Eliminada Propuesta: -1 tuplas eliminadas
+16:48:32,989 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se encontró un archivo de configuración válido: Interfaz
+16:48:32,989 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se encontró un archivo de configuración válido: Interfaz
+16:48:32,990 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se aplica configuración indicada en el archivo de configuración
+16:48:32,990 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se aplica configuración indicada en el archivo de configuración
+16:48:33,018 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+16:48:33,018 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+16:48:41,054 (AWT-EventQueue-0) INFO  [uniandes.isis2304.alohandes.negocio.Alohandes] - Eliminando Propuesta con id: 1
+16:48:41,198 (AWT-EventQueue-0) ERROR [uniandes.isis2304.alohandes.persistencia.PersistenciaAlohandes] - Exception : Error con la ejecucion de Query de SQL "DELETE FROM Usuario WHERE id = ?".
+16:48:41,206 (AWT-EventQueue-0) INFO  [uniandes.isis2304.alohandes.negocio.Alohandes] - Eliminada Propuesta: -1 tuplas eliminadas
+17:03:06,384 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se encontró un archivo de configuración válido: Interfaz
+17:03:06,384 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se encontró un archivo de configuración válido: Interfaz
+17:03:06,385 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se aplica configuración indicada en el archivo de configuración
+17:03:06,385 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se aplica configuración indicada en el archivo de configuración
+17:03:06,409 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+17:03:06,409 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+17:03:24,569 (AWT-EventQueue-0) INFO  [uniandes.isis2304.alohandes.negocio.Alohandes] - Adicionando Operador Hotel con id: 1
+17:03:24,903 (AWT-EventQueue-0) ERROR [uniandes.isis2304.alohandes.persistencia.PersistenciaAlohandes] - Exception : Error con la ejecucion de Query de SQL "INSERT INTO Alojamiento(id, nombre, tipo, codigo_camara_comercio, registro_superintendencia) values (?, ?, ?, ?, ?)".
+17:03:25,097 (AWT-EventQueue-0) INFO  [uniandes.isis2304.alohandes.negocio.Alohandes] - Adicionado Operador Hotel: null
+17:09:31,699 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se encontró un archivo de configuración válido: Interfaz
+17:09:31,699 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se encontró un archivo de configuración válido: Interfaz
+17:09:31,703 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se aplica configuración indicada en el archivo de configuración
+17:09:31,703 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se aplica configuración indicada en el archivo de configuración
+17:09:31,725 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+17:09:31,725 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+17:09:42,687 (AWT-EventQueue-0) INFO  [uniandes.isis2304.alohandes.negocio.Alohandes] - Adicionando Operador Hotel con id: 1
+17:09:43,112 (AWT-EventQueue-0) ERROR [uniandes.isis2304.alohandes.persistencia.PersistenciaAlohandes] - Exception : Error con la ejecucion de Query de SQL "INSERT INTO Usuario(id, nombre, tipo, codigo_camara_comercio, registro_superintendencia) values (?, ?, ?, ?, ?)".
+17:09:43,130 (AWT-EventQueue-0) INFO  [uniandes.isis2304.alohandes.negocio.Alohandes] - Adicionado Operador Hotel: null
+17:09:51,502 (AWT-EventQueue-0) INFO  [uniandes.isis2304.alohandes.negocio.Alohandes] - Adicionando Operador Hotel con id: 1
+17:09:51,546 (AWT-EventQueue-0) ERROR [uniandes.isis2304.alohandes.persistencia.PersistenciaAlohandes] - Exception : Error con la ejecucion de Query de SQL "INSERT INTO Usuario(id, nombre, tipo, codigo_camara_comercio, registro_superintendencia) values (?, ?, ?, ?, ?)".
+17:09:51,578 (AWT-EventQueue-0) INFO  [uniandes.isis2304.alohandes.negocio.Alohandes] - Adicionado Operador Hotel: null
+17:13:20,003 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se encontró un archivo de configuración válido: Interfaz
+17:13:20,003 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se encontró un archivo de configuración válido: Interfaz
+17:13:20,004 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se aplica configuración indicada en el archivo de configuración
+17:13:20,004 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se aplica configuración indicada en el archivo de configuración
+17:13:20,023 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+17:13:20,023 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+17:13:30,078 (AWT-EventQueue-0) INFO  [uniandes.isis2304.alohandes.negocio.Alohandes] - Adicionando Operador Hotel con id: 1
+17:13:30,376 (AWT-EventQueue-0) ERROR [uniandes.isis2304.alohandes.persistencia.PersistenciaAlohandes] - Exception : Error con la ejecucion de Query de SQL "INSERT INTO Operador(id, nombre, tipo, codigo_camara_comercio, registro_superintendencia) values (?, ?, ?, ?, ?)".
+17:13:30,397 (AWT-EventQueue-0) INFO  [uniandes.isis2304.alohandes.negocio.Alohandes] - Adicionado Operador Hotel: null
+17:17:47,044 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se encontró un archivo de configuración válido: Interfaz
+17:17:47,044 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se encontró un archivo de configuración válido: Interfaz
+17:17:47,046 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se aplica configuración indicada en el archivo de configuración
+17:17:47,046 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se aplica configuración indicada en el archivo de configuración
+17:17:47,074 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+17:17:47,074 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+17:17:57,429 (AWT-EventQueue-0) INFO  [uniandes.isis2304.alohandes.negocio.Alohandes] - Adicionando Operador Hotel con id: 1
+17:17:57,791 (AWT-EventQueue-0) ERROR [uniandes.isis2304.alohandes.persistencia.PersistenciaAlohandes] - Exception : Error con la ejecucion de Query de SQL "INSERT INTO Operador(id, nombre, tipo, codigo_camara_comercio, registro_superintendencia) values (?, ?, ?, ?, ?)".
+17:17:57,816 (AWT-EventQueue-0) INFO  [uniandes.isis2304.alohandes.negocio.Alohandes] - Adicionado Operador Hotel: null
+17:18:42,675 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se encontró un archivo de configuración válido: Interfaz
+17:18:42,675 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se encontró un archivo de configuración válido: Interfaz
+17:18:42,676 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se aplica configuración indicada en el archivo de configuración
+17:18:42,676 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se aplica configuración indicada en el archivo de configuración
+17:18:42,695 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+17:18:42,695 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+17:18:53,624 (AWT-EventQueue-0) INFO  [uniandes.isis2304.alohandes.negocio.Alohandes] - Adicionando Operador Hotel con id: 1
+17:18:53,694 (AWT-EventQueue-0) ERROR [uniandes.isis2304.alohandes.persistencia.PersistenciaAlohandes] - Exception : SQL query tiene parametro "5" pero no existe en el query : INSERT INTO Operador(id, nombre, tipo, codigo_camara_comercio, registro_superintendencia) values (?, ?, ?, ?, ?)
+17:18:53,698 (AWT-EventQueue-0) INFO  [uniandes.isis2304.alohandes.negocio.Alohandes] - Adicionado Operador Hotel: null
+17:19:46,525 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se encontró un archivo de configuración válido: Interfaz
+17:19:46,525 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se encontró un archivo de configuración válido: Interfaz
+17:19:46,526 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se aplica configuración indicada en el archivo de configuración
+17:19:46,526 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se aplica configuración indicada en el archivo de configuración
+17:19:46,543 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+17:19:46,543 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+17:19:56,944 (AWT-EventQueue-0) INFO  [uniandes.isis2304.alohandes.negocio.Alohandes] - Adicionando Operador Hotel con id: 1
+17:19:57,234 (AWT-EventQueue-0) ERROR [uniandes.isis2304.alohandes.persistencia.PersistenciaAlohandes] - Exception : Error con la ejecucion de Query de SQL "INSERT INTO Operador(id, nombre, tipo, codigo_camara_comercio, registro_superintendencia) values (?, ?, ?, ?, ?)".
+17:19:57,259 (AWT-EventQueue-0) INFO  [uniandes.isis2304.alohandes.negocio.Alohandes] - Adicionado Operador Hotel: null
+17:25:43,285 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se encontró un archivo de configuración válido: Interfaz
+17:25:43,285 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se encontró un archivo de configuración válido: Interfaz
+17:25:43,288 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se aplica configuración indicada en el archivo de configuración
+17:25:43,288 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se aplica configuración indicada en el archivo de configuración
+17:25:43,321 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+17:25:43,321 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+17:25:53,705 (AWT-EventQueue-0) INFO  [uniandes.isis2304.alohandes.negocio.Alohandes] - Adicionando Operador Hotel con id: 1
+17:25:54,169 (AWT-EventQueue-0) ERROR [uniandes.isis2304.alohandes.persistencia.PersistenciaAlohandes] - Exception : Error con la ejecucion de Query de SQL "INSERT INTO Operador(id, nombre, tipo, codigo_camara_comercio, registro_superintendencia) values (?, ?, ?, ?, ?)".
+17:25:54,192 (AWT-EventQueue-0) INFO  [uniandes.isis2304.alohandes.negocio.Alohandes] - Adicionado Operador Hotel: null
+17:38:06,698 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se encontró un archivo de configuración válido: Interfaz
+17:38:06,698 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se encontró un archivo de configuración válido: Interfaz
+17:38:06,700 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se aplica configuración indicada en el archivo de configuración
+17:38:06,700 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se aplica configuración indicada en el archivo de configuración
+17:38:06,718 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+17:38:06,718 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+17:43:25,233 (AWT-EventQueue-0) INFO  [uniandes.isis2304.alohandes.negocio.Alohandes] - Adicionando Operador Hotel con id: 1
+17:43:25,587 (AWT-EventQueue-0) ERROR [uniandes.isis2304.alohandes.persistencia.PersistenciaAlohandes] - Exception : Error con la ejecucion de Query de SQL "INSERT INTO Operador(id, nombre, tipo, codigo_camara_comercio, registro_superintendencia) values (?, ?, ?, ?, ?)".
+17:43:25,635 (AWT-EventQueue-0) INFO  [uniandes.isis2304.alohandes.negocio.Alohandes] - Adicionado Operador Hotel: null
+20:49:40,406 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se encontró un archivo de configuración válido: Interfaz
+20:49:40,406 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se encontró un archivo de configuración válido: Interfaz
+20:49:40,410 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se aplica configuración indicada en el archivo de configuración
+20:49:40,410 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se aplica configuración indicada en el archivo de configuración
+20:49:40,430 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+20:49:40,430 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+20:49:54,238 (AWT-EventQueue-0) INFO  [uniandes.isis2304.alohandes.negocio.Alohandes] - Adicionando Operador Hotel con id: 1
+20:54:00,140 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se encontró un archivo de configuración válido: Interfaz
+20:54:00,140 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se encontró un archivo de configuración válido: Interfaz
+20:54:00,142 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se aplica configuración indicada en el archivo de configuración
+20:54:00,142 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se aplica configuración indicada en el archivo de configuración
+20:54:00,161 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+20:54:00,161 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+20:54:42,811 (AWT-EventQueue-0) INFO  [uniandes.isis2304.alohandes.negocio.Alohandes] - Eliminando Reserva con id: 1
+20:54:44,463 (AWT-EventQueue-0) INFO  [uniandes.isis2304.alohandes.negocio.Alohandes] - Eliminada Reserva: 0 tuplas eliminadas

@@ -1,10 +1,10 @@
-create sequence alohandes_sequence;
+CREATE SEQUENCE alohandes_sequence;
 
 CREATE TABLE Operador (
   id INT PRIMARY KEY NOT NULL,
   nombre VARCHAR(255) NOT NULL,
-  codigo_camara_comercio INT ,
-  registro_superintendencia INT ,
+  codigo_camara_comercio INT,
+  registro_superintendencia INT,
   cedula INT,
   tipo VARCHAR(10) NOT NULL CHECK (tipo IN ('hotel', 'hostal', 'aloha'))
 );
@@ -17,15 +17,14 @@ CREATE TABLE Alojamiento (
   ubicacion VARCHAR(100),
   tamano INT,
   precio FLOAT,
-  internet CHAR(1) CHECK (internet  IN ('Y', 'N')),
+  internet CHAR(1) CHECK (internet IN ('Y', 'N')),
   sala CHAR(1) CHECK (sala IN ('Y', 'N')),
-  cocina CHAR(1) CHECK (cocina  IN ('Y', 'N')),
+  cocina CHAR(1) CHECK (cocina IN ('Y', 'N')),
   compartida CHAR(1) CHECK (compartida IN ('Y', 'N')),
-  bano_privado CHAR(1) CHECK (banio_privado IN ('Y', 'N')),
+  bano_privado CHAR(1) CHECK (bano_privado IN ('Y', 'N')),
   CONSTRAINT fk_operador_alojamiento FOREIGN KEY (id_operador)
     REFERENCES Operador(id)
 );
-
 
 CREATE TABLE Usuario (
   id INT PRIMARY KEY,
@@ -41,8 +40,8 @@ CREATE TABLE Propuesta (
   titulo VARCHAR(255) NOT NULL,
   descripcion VARCHAR(1000) NOT NULL,
   alojamientoId INT NOT NULL,
-  CONSTRAINT fk_alojamiento FOREIGN KEY (alojamientoId)
-    REFERENCES Alojamiento (id)
+  CONSTRAINT fk_propuesta_alojamiento FOREIGN KEY (alojamientoId)
+    REFERENCES Alojamiento(id)
 );
 
 CREATE TABLE Reserva (
@@ -52,23 +51,18 @@ CREATE TABLE Reserva (
   fechaInicial DATE NOT NULL,
   fechaFinal DATE NOT NULL,
   costo INT NOT NULL,
-  CONSTRAINT fk_user FOREIGN KEY (userId)
+  CONSTRAINT fk_reserva_usuario FOREIGN KEY (userId)
     REFERENCES Usuario(id),
-  CONSTRAINT fk_alojamiento FOREIGN KEY (alojamientoId)
+  CONSTRAINT fk_reserva_alojamiento FOREIGN KEY (alojamientoId)
     REFERENCES Alojamiento(id)
 );
-
-ALTER TABLE Alojamiento
-ADD CONSTRAINT fk_alojamiento_operador
-FOREIGN KEY (id_operador)
-REFERENCES Operador(id);
 
 CREATE TABLE Servicio (
   id INT NOT NULL,
   nombreServicio VARCHAR(255) NOT NULL,
   PRIMARY KEY (id, nombreServicio),
   CONSTRAINT fk_servicios_alojamiento FOREIGN KEY (id)
-    REFERENCES Alojamiento (id)
+    REFERENCES Alojamiento(id)
 );
 
 COMMIT;
