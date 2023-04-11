@@ -136,3 +136,9 @@
 20:54:00,161 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se encontró un archivo de configuración válido: Tablas BD
 20:54:42,811 (AWT-EventQueue-0) INFO  [uniandes.isis2304.alohandes.negocio.Alohandes] - Eliminando Reserva con id: 1
 20:54:44,463 (AWT-EventQueue-0) INFO  [uniandes.isis2304.alohandes.negocio.Alohandes] - Eliminada Reserva: 0 tuplas eliminadas
+21:00:39,163 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se encontró un archivo de configuración válido: Interfaz
+21:00:39,163 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se encontró un archivo de configuración válido: Interfaz
+21:00:39,165 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se aplica configuración indicada en el archivo de configuración
+21:00:39,165 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se aplica configuración indicada en el archivo de configuración
+21:00:39,193 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se encontró un archivo de configuración válido: Tablas BD
+21:00:39,193 (main) INFO  [uniandes.isis2304.alohandes.interfazApp.InterfazAlohandesApp] - Se encontró un archivo de configuración válido: Tablas BD
